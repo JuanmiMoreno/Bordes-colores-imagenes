@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordes, colores e imagenes</title>
+
+    <style>
+        #fondo {
+
+            width: 40vw;
+            height: 50vh;
+            object-fit: contain;
+            margin-right: 25%;
+            margin-left: 25%;
+            border: 2px;
+            border-color: rgb(0, 255, 153);
+            background-image: url(./paisaje.jpg);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        div:first-child:hover {
+            padding: 50px;
+            width: 75%;
+        }
+
+        div:first-child:active {
+            padding: 20px;
+            width: 25%;
+        }
+
+        #parrafos {
+
+            justify-content: center;
+            padding: 5px;
+            margin-right: 5%;
+            margin-left: 5%;
+            background-color: rgba(40, 211, 160, 0.765);
+
+        }
+
+        #parrafos:hover {
+
+            column-count: 3;
+            text-align: center;
+            column-width: 30%;
+
+        }
+
+        #parrafos:active {
+            -moz-column-count: 2;
+            -webkit-column-count: 2;
+            column-count: 2;
+            text-align: center;
+            width: 800px;
+            margin-left: 20%;
+
+        }
+
+
+
+        p:hover:last-of-type {
+            background-color: rgb(104, 255, 4);
+            color: rgb(255, 255, 255);
+        }
+
+        p:active:last-of-type {
+            background-color: rgb(0, 126, 50);
+            color: rgb(255, 255, 255);
+        }
+
+        #parrafos p:hover::first-letter {
+
+            margin-left: 20%;
+            margin-top: 60%;
+            font-size: 200%;
+            font-weight: bold;
+            font-style: italic;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="fondo">
+    </div>
+    <br>
+    <br>
+    <div id="parrafos">
+        <p>
+            Lorem fistrum de la pradera sexuarl a wan caballo blanco caballo negroorl te voy a borrar el cerito. Me cago
+            en
+            tus muelas ese pedazo de apetecan ahorarr caballo blanco caballo negroorl por la gloria de mi madre por la
+            gloria de mi madre a peich. Tiene musho peligro papaar papaar hasta luego Lucas a wan no puedor. Mamaar jarl
+            ese
+            que llega mamaar caballo blanco caballo negroorl pupita qué dise usteer pupita jarl no puedor. Al ataquerl
+            va
+            usté muy cargadoo te voy a borrar el cerito no puedor quietooor no puedor a wan hasta luego Lucas no te digo
+            trigo por no llamarte Rodrigor. Al ataquerl no te digo trigo por no llamarte Rodrigor tiene musho peligro
+            llevame al sircoo pupita.
+        </p>
+        <p>
+            No puedor diodenoo torpedo ese hombree no puedor. Se calle ustée ese hombree apetecan tiene musho peligro a
+            wan
+            sexuarl tiene musho peligro va usté muy cargadoo apetecan se calle ustée. No puedor ese que llega jarl te
+            voy a
+            borrar el cerito ese hombree a peich diodenoo te va a hasé pupitaa apetecan. Ese que llega al ataquerl a wan
+            condemor se calle ustée la caidita ahorarr hasta luego Lucas por la gloria de mi madre fistro. Diodeno
+            mamaar la
+            caidita ese hombree papaar papaar no puedor por la gloria de mi madre ese pedazo de papaar papaar caballo
+            blanco
+            caballo negroorl se calle ustée. Sexuarl a gramenawer a gramenawer sexuarl a gramenawer. A gramenawer pupita
+            de
+            la pradera a gramenawer de la pradera va usté muy cargadoo. Por la gloria de mi madre al ataquerl torpedo la
+            caidita pupita no puedor no puedor. Quietooor amatomaa ese hombree caballo blanco caballo negroorl ese
+            pedazo de
+            quietooor ese hombree fistro me cago en tus muelas la caidita a wan.
+        </p>
+
+    </div>
+
+</body>
+
+</html>
